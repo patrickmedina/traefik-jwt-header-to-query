@@ -1,0 +1,6 @@
+displayName: Transform JWT from Authorization header to query parameter
+type: middleware
+import: github.com/patrickmedina/traefik-jwt-header-to-query
+summary: Modify the request to have the JWT in query parameters instead of from Authorization header
+testData:
+  paramName: jwt
